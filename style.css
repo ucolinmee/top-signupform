@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexbox {
+    width: 65vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    background-image: url("./assets/halie-west-25xggax4bSA-unsplash.jpg");
+    width: 35%;
+    height: 100%;
+}
+
+.right {
+    background-color: red;
+    width: 65%;
+    height: 100%;
+}
+
+
+/* .judson-regular {
+    font-family: "Judson", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .judson-bold {
+    font-family: "Judson", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .judson-regular-italic {
+    font-family: "Judson", serif;
+    font-weight: 400;
+    font-style: italic;
+  } */
+  
