@@ -40,11 +40,81 @@ body {
 }
 
 .right {
-    background-color: #fff;
+    background-color: aliceblue;
     width: 65%;
     height: 100%;
 }
 
+.form-header {
+    font-family: "Judson", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    padding: 150px 200px 20px 40px;
+}
+
+.form-body {
+    background-color: #fff;
+    padding: 10px 0 30px 40px;
+}
+
+.form-body > p {
+    font-family: "Judson", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+}
+
+label {
+    display: block;
+    font-family: "Judson", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+}
+
+input {
+    width: 200px;
+}
+
+section > div {
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+br {
+    clear: both;
+}
+
+.form-footer {
+    padding: 20px 0 0 40px;
+}
+
+button {
+    color: #fff;
+    background-color: #596D48;
+    font-family: "Judson", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    border-radius: 6px;
+    border: #596D48;
+}
+
+.form-footer > p {
+    font-family: "Judson", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.form-footer > p > a {
+    color: #596D48;
+    cursor: pointer;
+}
 
 /* .judson-regular {
     font-family: "Judson", serif;
